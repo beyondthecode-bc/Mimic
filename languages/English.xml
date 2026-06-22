@@ -1,45 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <strings>
-  <!-- App -->
+  <!-- App / general -->
   <string key="app.name">Mimic</string>
   <string key="app.quit">Quit Mimic</string>
-
-  <!-- General -->
   <string key="general.settings">Settings</string>
   <string key="general.about">About</string>
   <string key="general.ok">OK</string>
   <string key="general.cancel">Cancel</string>
+  <string key="general.maybeLater">Maybe later</string>
 
   <!-- Sidebar / nav -->
   <string key="nav.home">Home</string>
   <string key="nav.routines">Routines</string>
   <string key="nav.settings">Settings</string>
 
-  <!-- Run controls -->
+  <!-- Run controls + status -->
   <string key="run.start">Start</string>
   <string key="run.stop">Stop</string>
   <string key="run.panic">Panic Stop</string>
   <string key="run.idle">Idle</string>
   <string key="run.running">Running</string>
+  <string key="status.ready">Ready to run</string>
+  <string key="status.pressStart">Press Start to begin.</string>
+  <string key="status.readyToRun">Ready to run.</string>
+  <string key="status.nextIn">next in %1s</string>
+  <string key="status.left">%1 left</string>
+  <string key="status.untilStopped">until stopped</string>
 
   <!-- Modes -->
   <string key="mode.sentence">Sentence</string>
   <string key="mode.map">Map</string>
 
+  <!-- Hero sentence (Home) -->
+  <string key="sentence.press">Press</string>
+  <string key="sentence.leftClick">left click</string>
+  <string key="sentence.rightClick">right click</string>
+  <string key="sentence.middleClick">middle click</string>
+  <string key="sentence.atThe">at the</string>
+  <string key="sentence.every">every</string>
+  <string key="sentence.for">for</string>
+  <string key="sentence.times">times.</string>
+  <string key="sentence.untilStopped">until stopped.</string>
+
+  <!-- Input / hotkey / point recorders -->
+  <string key="recorder.recordInput">Record input…</string>
+  <string key="recorder.recordInputPro">Record input — Pro</string>
+  <string key="recorder.prompt">Press your desired input…</string>
+  <string key="recorder.instructions">Click a mouse button or press a key.&#10;Keyboard keys require Pro · Esc to cancel.</string>
+  <string key="recorder.pressShortcut">Press your shortcut…</string>
+  <string key="recorder.hintPressChord">Press a modifier + key, e.g. ⌘⌥K.</string>
+  <string key="recorder.hintHoldEsc">Hold Esc for 3 s to confirm.</string>
+  <string key="recorder.pressKeys">Press keys…</string>
+  <string key="recorder.recordShortcut">Record shortcut</string>
+  <string key="recorder.record">Record</string>
+  <string key="recorder.pickPointHint">Click anywhere to set the point — Esc to cancel</string>
+
   <!-- Targets -->
+  <string key="target.title">Target</string>
   <string key="target.cursor">Current cursor</string>
   <string key="target.fixed">Fixed point</string>
   <string key="target.frontmost">Frontmost app</string>
+  <string key="target.cursorShort">current cursor</string>
+  <string key="target.fixedShort">fixed point</string>
+  <string key="target.frontmostShort">frontmost app</string>
+  <string key="target.fixedPro">fixed point — Pro</string>
+  <string key="target.frontmostPro">frontmost app — Pro</string>
+  <string key="target.cursorSubtitle">Click wherever the cursor is at fire time.</string>
+  <string key="target.fixedSubtitleHint">Click a captured screen coordinate.</string>
+  <string key="target.fixedSubtitleCaptured">Captured at (%1, %2).</string>
+  <string key="target.frontmostSubtitle">Click inside the focused window.</string>
+  <string key="target.fixedPickPrompt">Click anywhere to set the fixed point</string>
+  <string key="target.fixedPickCancel">Press Esc to cancel</string>
 
-  <!-- Permissions -->
-  <string key="perm.title">Mimic needs Accessibility access</string>
-  <string key="perm.open">Open Accessibility Settings</string>
-  <string key="perm.waiting">Waiting for permission…</string>
+  <!-- Timing card -->
+  <string key="timing.title">Timing</string>
+  <string key="timing.cadence">Cadence</string>
+  <string key="timing.cadenceHelp">Base interval between clicks.</string>
+  <string key="timing.unitMs">ms</string>
+  <string key="timing.unitSec">sec</string>
+  <string key="timing.unitMin">min</string>
+  <string key="timing.unitMilliseconds">milliseconds</string>
+  <string key="timing.unitSeconds">seconds</string>
+  <string key="timing.unitMinutes">minutes</string>
+  <string key="timing.humanize">Humanize (jitter)</string>
+  <string key="timing.humanizeHelp">Random ± variation so clicks feel human.</string>
+  <string key="timing.preset">Preset</string>
+  <string key="timing.presetHelp">Controls how timing variation is distributed.</string>
+  <string key="timing.humanizeFreeHelp">Clicks are humanized by ±%1 ms.</string>
+  <string key="timing.humanizeFreeBadge">±%1 ms · Humanized</string>
 
-  <!-- License -->
+  <!-- Humanizer presets -->
+  <string key="preset.basic">Basic</string>
+  <string key="preset.natural">Natural</string>
+  <string key="preset.cautious">Cautious</string>
+  <string key="preset.aggressive">Aggressive</string>
+  <string key="preset.burstGamer">Burst (Gamer)</string>
+
+  <!-- Run conditions card -->
+  <string key="runcond.title">Run conditions</string>
+  <string key="runcond.repeat">Repeat</string>
+  <string key="runcond.nTimes">N times</string>
+  <string key="runcond.untilStopped">Until stopped</string>
+  <string key="runcond.times">times</string>
+  <string key="runcond.trigger">Trigger</string>
+  <string key="runcond.triggerHint">Global shortcut to run this routine.</string>
+  <string key="runcond.launchAtLogin">Launch at login</string>
+  <string key="runcond.launchAtLoginHint">Start Mimic automatically when you log in.</string>
+  <string key="runcond.runUntilStop">Run until I stop it</string>
+
+  <!-- Map controls -->
+  <string key="mapc.addPoint">Add point</string>
+  <string key="mapc.stopRecording">Stop recording</string>
+  <string key="mapc.loop">Loop</string>
+  <string key="mapc.nTimes">N times</string>
+  <string key="mapc.untilStopped">Until stopped</string>
+  <string key="mapc.loopOne">%1 loop</string>
+  <string key="mapc.loopCount">%1 loops</string>
+  <string key="mapc.loopWithPro">Loop with Pro</string>
+  <string key="mapc.jitterValue">±%1 ms</string>
+  <string key="mapc.jitterDescription">Random variation added to each step delay so the macro never repeats identically.</string>
+
+  <!-- Map step rows + editor -->
+  <string key="step.clickDescription">%1 ×%2</string>
+  <string key="step.coordinatesDelay">x %1, y %2 · %3s</string>
+  <string key="step.title">Step %1</string>
+  <string key="step.position">POSITION</string>
+  <string key="step.coordinates">x %1, y %2</string>
+  <string key="step.repick">Re-pick</string>
+  <string key="step.button">BUTTON</string>
+  <string key="step.clicks">CLICKS</string>
+  <string key="step.single">Single</string>
+  <string key="step.double">Double</string>
+  <string key="step.triple">Triple</string>
+  <string key="step.postDelay">POST-STEP DELAY</string>
+  <string key="step.postDelayHint">Base delay before the next step. Humanized at run time.</string>
+  <string key="step.markerAccessibility">Step %1, %2 click</string>
+
+  <!-- Routines -->
+  <string key="routines.savedCount">%1 of %2 saved</string>
+  <string key="routines.load">Load</string>
+  <string key="routines.rename">Rename</string>
+  <string key="routines.delete">Delete</string>
+  <string key="routines.updateActive">Update '%1'</string>
+  <string key="routines.saveCurrent">Save current…</string>
+  <string key="routines.emptyTitle">No routines yet</string>
+  <string key="routines.emptyBody">Configure a Sentence or Map run on Home, then tap “Save current…”.</string>
+  <string key="routines.saveSheetTitle">Save current run as a routine</string>
+  <string key="routines.namePlaceholder">Routine name</string>
+  <string key="routines.save">Save</string>
+  <string key="routines.renameSheetTitle">Rename routine</string>
+  <string key="routines.defaultNameSentence">Sentence routine</string>
+  <string key="routines.defaultNameMap">Map routine</string>
+  <string key="routines.updatedRelative">Updated %1</string>
+
+  <!-- Pro upsell -->
+  <string key="upsell.limitReached">Free plan limit reached</string>
+  <string key="upsell.routinesBody">You can save up to 3 routines for free. Unlock Mimic Pro for unlimited routines.</string>
+  <string key="upsell.unlockProPrice">Unlock Pro — $10</string>
+  <string key="upsell.adjustHumanize">Adjust humanize &amp; unlock presets with Pro</string>
+  <string key="upsell.unlockWithPro">Unlock with Mimic Pro.</string>
+  <string key="upsell.proSubtitle">Unlimited routines · run length · Map looping · no cooldown</string>
+  <string key="upsell.unlockProForever">Unlock Mimic Pro — $10 forever</string>
+
+  <!-- Settings: General tab -->
+  <string key="general.startup">Startup</string>
+  <string key="general.launchAtLogin">Launch Mimic at login</string>
+  <string key="general.minimizeToMenuBar">Keep running in the menu bar when the window closes</string>
+  <string key="general.behavior">Behavior</string>
+  <string key="general.confirmStop">Ask for confirmation before stopping a run</string>
+  <string key="general.appearance">Appearance</string>
+  <string key="general.theme">Theme</string>
+  <string key="general.themeSystem">System</string>
+  <string key="general.themeDark">Dark</string>
+  <string key="general.themeLight">Light</string>
+  <string key="general.language">Language</string>
+  <string key="general.languageNote">Changes apply immediately.</string>
+
+  <!-- Settings: tab bar -->
+  <string key="general.tabGeneral">General</string>
+  <string key="hotkeys.tab">Hotkeys</string>
+  <string key="license.tab">License</string>
+
+  <!-- Settings: Hotkeys tab -->
+  <string key="hotkeys.globalHotkeys">Global Hotkeys</string>
+  <string key="hotkeys.startSubtitle">Start the active run</string>
+  <string key="hotkeys.stopSubtitle">Stop the active run</string>
+  <string key="hotkeys.warningSameShortcut">Start and Stop use the same shortcut — pick a different chord for one.</string>
+  <string key="hotkeys.warningTriggerDuplicate">The Trigger shortcut duplicates Start/Stop.</string>
+  <string key="hotkeys.warningRegisterFailed">A shortcut couldn't be registered — it may be in use by another app.</string>
+
+  <!-- Settings: License tab -->
+  <string key="license.statusSection">License Status</string>
+  <string key="license.statusLabel">Status</string>
+  <string key="license.proActive">Pro active</string>
+  <string key="license.free">Free</string>
+  <string key="license.unlockedLabel">Unlocked</string>
+  <string key="license.unlockedFeatures">Unlimited routines · advanced humanizer · no interstitial · unlimited run length · no cooldown · Map looping</string>
   <string key="license.activate">Activate License</string>
   <string key="license.deactivate">Deactivate License</string>
   <string key="license.proCTA">Get Mimic Pro — $10 forever</string>
+  <string key="license.activateSection">Activate</string>
+  <string key="license.keyPlaceholder">Paste your license key here</string>
+  <string key="license.activateHint">Enter the license key from your Gumroad purchase email.</string>
+  <string key="license.manageSection">Manage</string>
+  <string key="license.deactivateHint">Removes Pro from this Mac, freeing one of your 3 device slots.</string>
+  <string key="license.activatedSuccess">Mimic Pro activated. Enjoy!</string>
+  <string key="license.noActiveLicense">No active license found on this Mac.</string>
+
+  <!-- Settings: About tab -->
+  <string key="about.version">v%1</string>
+  <string key="about.tagline">Automation with a pulse — clicks that feel human.</string>
+  <string key="about.sponsorGitHub">Sponsor on GitHub</string>
+  <string key="about.sponsorGitHubSubtitle">Support development</string>
+  <string key="about.buyCoffee">Buy Me a Coffee</string>
+  <string key="about.buyCoffeeSubtitle">A small thank you goes a long way</string>
+  <string key="about.github">GitHub</string>
+  <string key="about.translations">Translations</string>
+  <string key="about.reportIssue">Report Issue</string>
+  <string key="about.versionFooter">Mimic %1</string>
+
+  <!-- House interstitial -->
+  <string key="interstitial.headerTitle">More from Beyond the Code</string>
+  <string key="interstitial.headerSubtitle">A quick word from the suite before your run.</string>
+  <string key="interstitial.proBenefits">No ads, no tracking. Pro removes this screen, lifts the routine limit, runs without time/cooldown limits, and unlocks Map looping and advanced humanizer presets.</string>
+  <string key="interstitial.skipAndRun">Skip &amp; Run</string>
+  <string key="interstitial.skipIn">Skip in %1s</string>
+
+  <!-- Run cap reached sheet -->
+  <string key="runcap.title">Free run limit reached</string>
+  <string key="runcap.subtitle">Pro runs without limits or waiting.</string>
+  <string key="runcap.proBenefits">No ads, no tracking. Pro also removes the run limit and cooldown, and unlocks Map looping.</string>
+  <string key="runcap.startAgain">Start again</string>
+  <string key="runcap.startAgainIn">Start again in %1</string>
+
+  <!-- Cross-promo -->
+  <string key="promo.learnMore">Learn more</string>
+  <string key="promo.get">Get</string>
+  <string key="promo.snatchTagline">Window snapping &amp; tiling with hotkeys and custom zones.</string>
+  <string key="promo.disksweepTagline">Reclaim gigabytes — clean caches, leftovers, and uninstall cleanly.</string>
+  <string key="promo.meridianTagline">Coordinate time zones across your team at a glance.</string>
+  <string key="promo.castTagline">Dice, coins, draws — every kind of randomness, one tidy app.</string>
+
+  <!-- Menu bar -->
+  <string key="menu.restart">Restart</string>
+  <string key="menu.openMimic">Open Mimic</string>
+
+  <!-- Permission onboarding -->
+  <string key="perm.title">Mimic needs Accessibility access</string>
+  <string key="perm.open">Open Accessibility Settings</string>
+  <string key="perm.waiting">Waiting for permission…</string>
+  <string key="perm.description">macOS requires your permission before Mimic can move the cursor and post clicks. Your data never leaves this Mac.</string>
+  <string key="perm.step1">Click “Open Accessibility Settings”.</string>
+  <string key="perm.step2">Find Mimic in the list and turn it on.</string>
+  <string key="perm.step3">Mimic continues automatically — no restart needed.</string>
+  <string key="perm.restart">Enabled it but still waiting? Restart Mimic</string>
 
   <!-- Updates -->
   <string key="update.check">Check for Updates</string>
