@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <string key="app.name">Mimic</string>
+  <string key="app.quit">Mimic 종료</string>
+  <string key="general.settings">설정</string>
+  <string key="general.about">정보</string>
+  <string key="general.ok">확인</string>
+  <string key="general.cancel">취소</string>
+  <string key="nav.home">홈</string>
+  <string key="nav.routines">루틴</string>
+  <string key="nav.settings">설정</string>
+  <string key="run.start">시작</string>
+  <string key="run.stop">중지</string>
+  <string key="run.panic">긴급 정지</string>
+  <string key="run.idle">대기 중</string>
+  <string key="run.running">실행 중</string>
+  <string key="mode.sentence">문장</string>
+  <string key="mode.map">맵</string>
+  <string key="target.cursor">현재 커서</string>
+  <string key="target.fixed">고정 위치</string>
+  <string key="target.frontmost">맨 앞 앱</string>
+  <string key="perm.title">Mimic에 손쉬운 사용 권한이 필요합니다</string>
+  <string key="perm.open">손쉬운 사용 설정 열기</string>
+  <string key="perm.waiting">권한을 기다리는 중…</string>
+  <string key="license.activate">라이선스 활성화</string>
+  <string key="license.deactivate">라이선스 비활성화</string>
+  <string key="license.proCTA">Mimic Pro 구입 — $10 평생 이용</string>
+  <string key="update.check">업데이트 확인</string>
+  <string key="update.checking">확인 중…</string>
+  <string key="update.available">업데이트 사용 가능</string>
+  <string key="update.upToDate">최신 버전입니다!</string>
+  <string key="update.download">다운로드</string>
+  <string key="update.install">지금 설치</string>
+  <string key="update.version">버전 %1</string>
+</strings>

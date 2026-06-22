@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <string key="app.name">Mimic</string>
+  <string key="app.quit">Mimicを終了</string>
+  <string key="general.settings">設定</string>
+  <string key="general.about">Mimicについて</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">キャンセル</string>
+  <string key="nav.home">ホーム</string>
+  <string key="nav.routines">ルーティン</string>
+  <string key="nav.settings">設定</string>
+  <string key="run.start">開始</string>
+  <string key="run.stop">停止</string>
+  <string key="run.panic">緊急停止</string>
+  <string key="run.idle">待機中</string>
+  <string key="run.running">実行中</string>
+  <string key="mode.sentence">センテンス</string>
+  <string key="mode.map">マップ</string>
+  <string key="target.cursor">現在のカーソル</string>
+  <string key="target.fixed">固定ポイント</string>
+  <string key="target.frontmost">最前面のアプリ</string>
+  <string key="perm.title">Mimicにはアクセシビリティのアクセス権が必要です</string>
+  <string key="perm.open">アクセシビリティ設定を開く</string>
+  <string key="perm.waiting">許可を待っています…</string>
+  <string key="license.activate">ライセンスを有効化</string>
+  <string key="license.deactivate">ライセンスを無効化</string>
+  <string key="license.proCTA">Mimic Proを入手 — $10で永久に</string>
+  <string key="update.check">アップデートを確認</string>
+  <string key="update.checking">確認中…</string>
+  <string key="update.available">アップデートがあります</string>
+  <string key="update.upToDate">最新の状態です！</string>
+  <string key="update.download">ダウンロード</string>
+  <string key="update.install">今すぐインストール</string>
+  <string key="update.version">バージョン %1</string>
+</strings>

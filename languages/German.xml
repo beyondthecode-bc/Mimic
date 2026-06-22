@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <string key="app.name">Mimic</string>
+  <string key="app.quit">Mimic beenden</string>
+  <string key="general.settings">Einstellungen</string>
+  <string key="general.about">Über Mimic</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">Abbrechen</string>
+  <string key="nav.home">Start</string>
+  <string key="nav.routines">Routinen</string>
+  <string key="nav.settings">Einstellungen</string>
+  <string key="run.start">Starten</string>
+  <string key="run.stop">Stoppen</string>
+  <string key="run.panic">Not-Stopp</string>
+  <string key="run.idle">Inaktiv</string>
+  <string key="run.running">Läuft</string>
+  <string key="mode.sentence">Satz</string>
+  <string key="mode.map">Karte</string>
+  <string key="target.cursor">Aktueller Zeiger</string>
+  <string key="target.fixed">Fester Punkt</string>
+  <string key="target.frontmost">Vorderste App</string>
+  <string key="perm.title">Mimic benötigt Zugriff auf die Bedienungshilfen</string>
+  <string key="perm.open">Bedienungshilfen-Einstellungen öffnen</string>
+  <string key="perm.waiting">Warte auf Berechtigung…</string>
+  <string key="license.activate">Lizenz aktivieren</string>
+  <string key="license.deactivate">Lizenz deaktivieren</string>
+  <string key="license.proCTA">Mimic Pro holen — $10 für immer</string>
+  <string key="update.check">Nach Updates suchen</string>
+  <string key="update.checking">Suche läuft…</string>
+  <string key="update.available">Update verfügbar</string>
+  <string key="update.upToDate">Du bist auf dem neuesten Stand!</string>
+  <string key="update.download">Laden</string>
+  <string key="update.install">Jetzt installieren</string>
+  <string key="update.version">Version %1</string>
+</strings>
