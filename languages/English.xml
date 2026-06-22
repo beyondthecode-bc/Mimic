@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">Mimic</string>
+  <string key="app.quit">Quit Mimic</string>
+
+  <!-- General -->
+  <string key="general.settings">Settings</string>
+  <string key="general.about">About</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">Cancel</string>
+
+  <!-- Sidebar / nav -->
+  <string key="nav.home">Home</string>
+  <string key="nav.routines">Routines</string>
+  <string key="nav.settings">Settings</string>
+
+  <!-- Run controls -->
+  <string key="run.start">Start</string>
+  <string key="run.stop">Stop</string>
+  <string key="run.panic">Panic Stop</string>
+  <string key="run.idle">Idle</string>
+  <string key="run.running">Running</string>
+
+  <!-- Modes -->
+  <string key="mode.sentence">Sentence</string>
+  <string key="mode.map">Map</string>
+
+  <!-- Targets -->
+  <string key="target.cursor">Current cursor</string>
+  <string key="target.fixed">Fixed point</string>
+  <string key="target.frontmost">Frontmost app</string>
+
+  <!-- Permissions -->
+  <string key="perm.title">Mimic needs Accessibility access</string>
+  <string key="perm.open">Open Accessibility Settings</string>
+  <string key="perm.waiting">Waiting for permission…</string>
+
+  <!-- License -->
+  <string key="license.activate">Activate License</string>
+  <string key="license.deactivate">Deactivate License</string>
+  <string key="license.proCTA">Get Mimic Pro — $10 forever</string>
+
+  <!-- Updates -->
+  <string key="update.check">Check for Updates</string>
+  <string key="update.checking">Checking…</string>
+  <string key="update.available">Update Available</string>
+  <string key="update.upToDate">You're up to date!</string>
+  <string key="update.download">Download</string>
+  <string key="update.install">Install Now</string>
+  <string key="update.version">Version %1</string>
+</strings>
