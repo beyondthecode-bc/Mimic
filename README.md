@@ -44,6 +44,17 @@ signature is that its clicks feel *human* — randomized timing ("jitter") inste
 of robotic uniformity — and it runs both single-action ("Sentence") and
 multi-point macro ("Map") sequences.
 
+
+<!-- os27-compatibility:start -->
+## OS 27 compatibility
+
+Updated 2026-09-16.
+
+- **GitHub — Version 1.0.1:** OS 27 compatibility checked with an Xcode 27 build and automated regression tests.
+
+Checks use Xcode 27 builds and automated tests where available. Full testing on physical devices has not been completed. Minimum OS requirements are unchanged.
+<!-- os27-compatibility:end -->
+
 ## Features
 
 - **Humanized clicking** — interval jitter so clicks don't land on a robotic
